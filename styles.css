@@ -249,27 +249,3 @@ figcaption{
     transition: all .5s ease;
     font-size: 3rem;
 } 
-
-/*///////////////BOTON CARGAR POKEMON///////////////*/
-.btn-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    padding: 3rem 0;
-}
-
-#btn-load{
-    padding: 1.5rem 5rem;
-
-    border-radius: 20px;
-    background-color: coral;
-    color:bisque;
-    
-    font-size: 200%;
-    font-family: 'VT323', monospace;
-}
-
-#btn-load:hover{
-    opacity: .9;
-}

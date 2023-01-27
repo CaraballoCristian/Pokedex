@@ -48,7 +48,7 @@ let observer = new IntersectionObserver((entries) => {
     }
   })
 }, {
-  rootMargin: "0px 0px 200px 0px",
+  rootMargin: "0px 0px 400px 0px",
   threshold: .5
 });
 
@@ -105,8 +105,6 @@ let card;
 let oldCard;
 
 d.addEventListener("click", e => {
-  if(e.target.matches("#btn-load")) getPokemons(API);
-
   if((e.target.matches("#filter-submit")) && $input.value !== "") filtrar();
 
   if(e.target.matches(".figure") || (e.target.matches(".figure *"))){
