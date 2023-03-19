@@ -1,7 +1,7 @@
 # Pokedex
 
 ## Live Demo: Be patient, first load may takes some time!
-  [Live Demo]https://caraballocristian.github.io/Pokedex/)
+  [Live Demo.](https://caraballocristian.github.io/Pokedex/)
 #
 
 ## About:
